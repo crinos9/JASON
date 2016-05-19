@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.watchos.deployment_target = "2.0"
 
-  s.dependency = 'Alamofire'
+  s.dependency 'Alamofire'
   s.source_files = "Source/**/*.{swift,h}"
   s.source_files = "Extensions/**/*.{swift,h}"
 
