@@ -24,6 +24,10 @@
 
 // MARK: - The <| operator
 
+#if !COCOAPODS
+    import JASON
+#endif
+
 infix operator <| {
 associativity right
 precedence 90

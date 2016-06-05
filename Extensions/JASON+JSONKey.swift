@@ -22,8 +22,9 @@
 // SOFTWARE.
 //
 
-import JASON
-
+#if !COCOAPODS
+    import JASON
+#endif
 // MARK: - Signed Integers
 
 extension JSON {

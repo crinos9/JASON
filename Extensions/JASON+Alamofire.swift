@@ -22,7 +22,9 @@
 // SOFTWARE.
 //
 
+#if !COCOAPODS
 import JASON
+#endif
 import Alamofire
 
 extension Alamofire.Request {

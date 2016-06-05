@@ -14,7 +14,13 @@ Pod::Spec.new do |s|
 
   s.dependency 'Alamofire'
   s.source_files = "Source/**/*.{swift,h}"
-  s.source_files = "Extensions/**/*.{swift,h}"
 
   s.requires_arc = true
+
+  s.subspec 'Operators' do |ss|
+    ss.source_files = ss.source_files = 'Extensions/JASON+Operators.swift'
+  end
+  s.subspec 'Operators' do |ss|
+    ss.source_files = ss.source_files = 'Extensions/JASON+Operators.swift'
+  end 
 end
